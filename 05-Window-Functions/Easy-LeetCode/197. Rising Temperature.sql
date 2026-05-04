@@ -19,8 +19,8 @@ WITH prev_temp AS (
     FROM Weather 
 )
 SELECT id
-FROM prev_temp 
+FROM prev_temp  
 
-WHERE current_temp > prev_day_temp 
-AND DATEDIFF(recordDate, prev_date) = 1;
+WHERE current_temp > prev_day_temp  
+AND DATEDIFF(recordDate, prev_date)  = 1 ;
 
