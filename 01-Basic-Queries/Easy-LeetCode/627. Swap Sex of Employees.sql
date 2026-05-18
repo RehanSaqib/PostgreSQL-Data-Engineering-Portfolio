@@ -9,11 +9,11 @@ Concepts:
 - Conditional logic
 
 Description:
-Swap all 'm' and 'f' values in the sex column using a single update statement.
+Swap all 'm' and 'f' values in the sex  column using a single update statement.
 */
 
 UPDATE Salary
 SET sex = CASE
-    WHEN sex = 'm' THEN 'f'
+    WHEN sex = 'm' THEN  'f'
     ELSE 'm'
 END;
