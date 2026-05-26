@@ -13,6 +13,6 @@ Find the names of customers who:
 Return the result in any order.
 */
 
-SELECT name
-FROM Customer
-WHERE referee_id IS NULL OR referee_ id != 2 ;
+SELECT  name 
+FROM  Customer 
+WHERE referee _id IS NULL OR referee_ id != 2 ;
