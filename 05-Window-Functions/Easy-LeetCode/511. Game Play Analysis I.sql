@@ -8,8 +8,8 @@ Description:
 Find the first login date for each player using Window Functions.
 */
 
-WITH ranked_date AS (
-    SELECT player_id,event_ date  AS first_login,
+WITH ranked_date AS  (
+    SELECT player_id ,event_ date  AS first_login,
     DENSE_RANK () OVER (PARTITION   BY player_id ORDER BY event_date ASC) as rnk
     FROM Activity
 )

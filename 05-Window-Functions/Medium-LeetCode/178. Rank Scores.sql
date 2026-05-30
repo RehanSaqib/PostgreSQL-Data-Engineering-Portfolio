@@ -12,6 +12,6 @@ Write a solution to find the rank of the scores. The ranking should be calculate
 Return the result table ordered by score in descending order.
 */
 
-SELECT score,
-DENSE_RANK() OVER (ORDER BY score DESC) AS "rank"
-FROM Scores;
+SELECT  score ,
+DENSE_RANK() OVER (ORDER BY score DESC)  AS  "rank"
+FROM Scores ;
