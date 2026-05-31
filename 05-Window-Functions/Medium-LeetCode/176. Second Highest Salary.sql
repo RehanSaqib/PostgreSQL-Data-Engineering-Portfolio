@@ -9,9 +9,9 @@ Write a solution to find the second highest distinct salary from the Employee ta
 If there is no second highest salary, return null.
 */
 
-WITH rank_salaries AS (
-    SELECT salary,
-    DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
+WITH rank_salaries  AS (
+    SELECT salary ,
+    DENSE_RANK() OVER (ORDER BY sa lary DESC) AS rnk
     FROM Employee
 )
 
