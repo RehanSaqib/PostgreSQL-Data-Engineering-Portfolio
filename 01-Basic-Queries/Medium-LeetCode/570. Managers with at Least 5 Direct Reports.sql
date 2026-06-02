@@ -12,6 +12,6 @@ Find managers who have at least five direct reports.
 -- e1 represents the Manager, e2 represents the Employees reporting to them
 SELECT e1.name
 FROM Employee e1
-INNER JOIN Employee e2 ON e1.id = e2.managerId
-GROUP BY e1.id, e1.name
-HAVING COUNT(e2.id) >= 5;
+INNER JOIN Employee e2 ON e1.id =  e2.managerId
+GROUP BY  e1.id, e1.name
+HAVING COUNT(e2.id)  >= 5 ;

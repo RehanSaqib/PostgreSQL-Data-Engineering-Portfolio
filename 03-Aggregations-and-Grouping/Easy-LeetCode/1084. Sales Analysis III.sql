@@ -16,7 +16,7 @@ Find products that were ONLY sold in the first quarter of 2019
 
 SELECT s.product_id, p.product_name
 FROM Product p
-JOIN Sales s ON p.product_id = s.product_id
+JOIN Sales s ON p.product_id =  s.product_id
 GROUP BY s.product_id
-HAVING MIN(s.sale_date) >= '2019-01-01'
-   AND MAX(s.sale_date) <= '2019-03-31';
+HAVING MIN(s.sale_date)  >=  '2019-01-01'
+   AND MAX(s.sale_date)  <=  '2019-03-31';
