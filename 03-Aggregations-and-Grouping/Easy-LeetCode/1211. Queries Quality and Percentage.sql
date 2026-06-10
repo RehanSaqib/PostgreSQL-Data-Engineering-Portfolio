@@ -24,10 +24,10 @@ SELECT
 
     ROUND(
         AVG(
-            CASE 
-                WHEN rating < 3 THEN 100
-                ELSE 0
-            END
+             CASE 
+                 WHEN rating < 3 THEN 100
+                 ELSE  0
+             END
         ),
     2) AS poor_query_percentage
 
