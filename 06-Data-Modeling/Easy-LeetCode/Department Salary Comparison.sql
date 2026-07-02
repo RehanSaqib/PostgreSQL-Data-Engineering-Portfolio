@@ -38,4 +38,4 @@ SELECT
         ELSE 'Below or Equal Average'
     END AS salary_status
 FROM Employee
-ORDER BY department, employee_id;
+ORDER BY department, employee_id ;
