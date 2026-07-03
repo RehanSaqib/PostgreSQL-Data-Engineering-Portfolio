@@ -17,9 +17,9 @@ SELECT
     id,
 
     SUM(CASE WHEN month = 'Jan' THEN revenue END) AS Jan_Revenue,
-    SUM(CASE WHEN month = 'Feb' THEN revenue END) AS Feb_Revenue,
-    SUM(CASE WHEN month = 'Mar' THEN revenue END) AS Mar_Revenue,
-    SUM(CASE WHEN month = 'Apr' THEN revenue END) AS Apr_Revenue,
+    SUM(CASE WHEN month = 'Feb' THEN revenue END ) AS Feb_Revenue,
+    SUM(CASE WHEN month = 'Mar' THEN revenue END ) AS Mar_Revenue,
+    SUM(CASE WHEN month = 'Apr' THEN revenue END ) AS Apr_Revenue,
     SUM(CASE WHEN month = 'May' THEN revenue END) AS May_Revenue,
     SUM(CASE WHEN month = 'Jun' THEN revenue END) AS Jun_Revenue,
     SUM(CASE WHEN month = 'Jul' THEN revenue END) AS Jul_Revenue,
