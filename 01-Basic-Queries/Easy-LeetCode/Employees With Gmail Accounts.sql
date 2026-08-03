@@ -16,9 +16,9 @@ Only include employees whose email
 ends with '@gmail.com'.
 
 Order the result by employee_id.
+*  ?
 */
-
-SELECT
+ SELECT
     employee_id,
     employee_name,
     email
