@@ -4,9 +4,10 @@ Link: https://leetcode.com/problems/project-employees-i/
 Difficulty: Easy
 
 Concepts:
-- JOIN
-- GROUP BY
-- AVG
+
+ - JOIN
+-  GROUP BY
+-  AVG
 - ROUND
 
 Description:
