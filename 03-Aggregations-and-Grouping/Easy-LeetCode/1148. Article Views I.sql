@@ -16,7 +16,7 @@ Return the result sorted by id in ascending order.
 
 SELECT author_id AS id
 FROM Views
-WHERE author_id  =  viewer_id
-GROUP BY author_ id
-HAVING COUNT(*)  >= 1
-ORDER BY id ASC v ;
+ WHERE author_id  =  viewer_id
+ GROUP BY author_ id
+ HAVING COUNT(*)  >= 1
+ ORDER BY id ASC v  ; 
