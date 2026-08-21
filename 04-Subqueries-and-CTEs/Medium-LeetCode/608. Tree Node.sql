@@ -18,9 +18,9 @@ SELECT
         THEN 'Root'
 
         WHEN id NOT IN (
-             SELECT p_id
-             FROM  Tree
-             WHERE p_id IS  NOT  NULL
+              SELECT p_id
+              FROM  Tree
+              WHERE p_id IS  NOT  NULL
         )
         THEN 'Leaf'
 
