@@ -11,6 +11,6 @@ WITH prev AS
 SELECT
     employee_id,
     employee_name,
-    salary,
-    p AS previous_salary
-FROM prev;
+     salary,
+     p AS previous_salary
+ FROM prev ; 
