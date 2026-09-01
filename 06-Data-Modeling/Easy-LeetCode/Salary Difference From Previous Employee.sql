@@ -1,10 +1,10 @@
 WITH prev AS
 (
-    SELECT
-        employee_id,
-        employee_name,
-        salary,
-        LAG(salary) OVER (ORDER BY employee_id) AS p
+     SELECT
+           employee_id,
+           employee_name,
+           salary,
+          LAG(salary) OVER (ORDER BY employee_id) AS p
     FROM Employee
 )
 
